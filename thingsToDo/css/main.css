@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700|Montserrat:400,700|Noto+Serif:400,700');
+
+/*************************** 
+ Setting up Fonts
+***************************/
+html{
+    font-family: 'Lato', 'Montserrat', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+h1{
+    font-family: 'Merriweather', 'Noto Serif', 'Arial Black', serif;
+    font-weight: bold;
+    padding-bottom: 0.6rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2{
+    font-family: 'Merriweather', 'Noto Serif', 'Arial Black', serif;
+}
+li, p{
+    font-family: 'Lato', 'Montserrat', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+a{
+    font-family: 'Lato', 'Montserrat', Arial, sans-serif;
+    font-size: 1.4rem;
+}
+/*pre, code, kbd{
+    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+}*/
+
+body {
+	background-color: #00FFFF;
+	background: -webkit-linear-gradient(330deg, #00FFFF, #009696);
+	background: -o-linear-gradient(330deg, #00FFFF, #009696);
+	background: linear-gradient(60deg, #00FFFF, #009696);
+
+}
+figure{
+    margin-bottom: 1rem;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    border: 0.3rem solid #20C4C4;
+    border-radius: 10px
+}
+figcaption{
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+
+.content-mod{
+	background-color: #F0F0F0;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+
+}
+.row-mod{
+    
+}
+.row-sep{
+    border-top: 0.2rem solid #00FFFF;
+    padding-top: 1.2rem; 
+}
+
+.navbar-inverse {
+	/*background-color: #593A30;*/
+	background-image: none;
+	background-repeat: no-repeat;
+	background: #045059; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#04474F, #045059, #04474F);
+	background: -o-linear-gradient(#04474F, #045059, #04474F);
+	background: linear-gradient(#04474F, #045059, #04474F); /* Standard syntax */
+ }
+.navbar .nav > li > a {
+	font-weight: normal;
+    color:  #20C4C4;
+    /*background-color: #3B590C;*/
+/*    border: 0.2rem solid #20C4C4;
+    border-radius: 0.4rem;
+    margin: 0.3rem 0.3rem;*/
+}
+.navbar.navbar-inverse.navbar-fixed-top li > a:hover {
+    color: #6AFF63;
+    background-color: #9FA3FF;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #9FA3FF;
+	background-color: #0C7EE8;
+}
+
+.navbar .navbar-text > span {
+    color:  #20C4C4;
+}
+
+.fa-mod {
+  color: #20C4C4;
+}
+.fa-mod:hover {
+    color: #9FA3FF;
+}
