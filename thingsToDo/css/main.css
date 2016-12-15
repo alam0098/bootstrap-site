@@ -88,7 +88,10 @@ figcaption{
     color: #6AFF63;
     background-color: #9FA3FF;
 }
-
+.navbar-toggle:hover,
+.navbar-toggle:focus{
+    background-color: #9FA3FF !important;
+}
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
