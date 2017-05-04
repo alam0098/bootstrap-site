@@ -7,7 +7,6 @@ html{
     font-family: 'Lato', 'Montserrat', Arial, sans-serif;
     font-weight: normal;
     font-size: 14px;
-    height: 100%;
 }
 h1{
     font-family: 'Merriweather', 'Noto Serif', 'Arial Black', serif;
@@ -33,12 +32,8 @@ body {
 	background: -webkit-linear-gradient(330deg, #00FFFF, #009696);
 	background: -o-linear-gradient(330deg, #00FFFF, #009696);
 	background: linear-gradient(60deg, #00FFFF, #009696);
-    height: 100%;
+}
 
-}
-main{
-    height: 100%;
-}
 figure{
     margin-bottom: 1rem;
 }
@@ -52,7 +47,6 @@ figcaption{
     margin-top: 0.2rem;
     text-align: center;
 }
-
 .jumbotron {
     background: #000 url("../img/container-bg2.jpg") repeat center center;
     background-size: auto auto;
@@ -66,7 +60,6 @@ figcaption{
 }*/
 .content-mod{
 	background-color: #F0F0F0;
-    height: 100%;
 
 }
 .row-mod{
@@ -126,4 +119,9 @@ figcaption{
 }
 .fa-mod:hover {
     color: #9FA3FF;
+}
+@media(min-width:767px){
+    html, body, main, .content-mod{
+        height: 100%;
+    }
 }
