@@ -28,7 +28,6 @@ a{
 /*pre, code, kbd{
     font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
 }*/
-
 body {
 	background-color: #00FFFF;
 	background: -webkit-linear-gradient(330deg, #00FFFF, #009696);
@@ -36,6 +35,9 @@ body {
 	background: linear-gradient(60deg, #00FFFF, #009696);
     height: 100%;
 
+}
+main{
+    height: 100%;
 }
 figure{
     margin-bottom: 1rem;
@@ -59,6 +61,9 @@ figcaption{
 	color: #C4FFC1;
 
 }
+/*.container{
+    height: 100%;
+}*/
 .content-mod{
 	background-color: #F0F0F0;
     height: 100%;
@@ -89,9 +94,14 @@ figcaption{
     color: #6AFF63;
     background-color: #9FA3FF;
 }
-.navbar-toggle:hover,
-.navbar-toggle:focus{
-    background-color: #9FA3FF !important;
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+.navbar-inverse .navbar-toggle:hover{
+    background-color: #9FA3FF;
+}
+.navbar-inverse .navbar-toggle:focus{
+    background-color: #045059;
 }
 .navbar-inverse .navbar-brand {
     color: #6AFF63;
