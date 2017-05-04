@@ -34,6 +34,7 @@ body {
 	background: -webkit-linear-gradient(330deg, #00FFFF, #009696);
 	background: -o-linear-gradient(330deg, #00FFFF, #009696);
 	background: linear-gradient(60deg, #00FFFF, #009696);
+    height: 100%;
 
 }
 figure{
